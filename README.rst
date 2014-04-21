@@ -14,5 +14,7 @@ Use::
 
     %groupcol df['colname']
     %numcol df['colname'] numtype
+    %boundscheckcol df['colname'] min-max
+    %regexcol df['colname'] pattern
 
 See the `Demo notebook <http://nbviewer.ipython.org/github/takluyver/pandawash/blob/master/Pandawash%20Demo.ipynb>`_ for examples.
